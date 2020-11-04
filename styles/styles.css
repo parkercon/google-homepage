@@ -1,0 +1,124 @@
+body{
+    font-family: arial, sans-serif;
+}
+
+#top-left{
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+li{
+    display: inline;
+    padding-left: 20px;
+}
+
+a { 
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#gmail{
+    padding-right: 20px;
+    float: right;
+}
+
+#images{
+    padding-right: 20px;
+    float: right;
+}
+
+
+#menu{
+    height: 27px;
+    margin-top: -5px;
+    float: right;
+    padding-right: 20px;
+}
+
+#logo{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search-wrapper{
+    position: relative;
+}
+
+.search-wrapper input{
+    position: relative;
+    margin-top: 20px;
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px #D3D3D3 solid;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.search:hover{
+    box-shadow: 1px 0px 1px 1px lightgray;
+}
+
+.search-wrapper img{
+    position: absolute;
+    width: 50px;
+    top: 17px;
+    left: 0px;
+}
+
+button{
+    background-color: rgb(243, 239, 239);
+    border: 1px #D3D3D3 hidden;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 15px;
+    width: 200px;
+    margin-top: 20px;
+ margin-right: 30px;
+    margin-left: 10px; 
+}
+
+button:hover{
+    background-color: rgb(241, 238, 238);
+    border: 1px #D3D3D3 solid;
+
+}
+
+
+#bottom-nav{
+    font-size: 17px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgb(243, 239, 239);;
+    margin-left: -10px;;
+}
+
+#privacy{
+    float: right;
+    padding-right: 20px;
+}
+
+#terms{
+    float: right;
+    padding-right: 20px;
+}
+
+#settings{
+    float: right;
+    padding-right: 20px;
+}
